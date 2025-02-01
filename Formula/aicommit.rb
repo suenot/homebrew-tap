@@ -1,7 +1,7 @@
 class Aicommit < Formula
   desc "AI-powered commit message generator"
   homepage "https://github.com/suenot/aicommit"
-  url "https://github.com/suenot/aicommit/releases/download/v0.1.105/aicommit-macos-x86_64"
+  url "https://github.com/suenot/aicommit/releases/download/v0.1.106/aicommit-macos-x86_64"
   sha256 ""
   license "MIT"
 
