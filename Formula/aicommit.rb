@@ -1,13 +1,13 @@
 class Aicommit < Formula
   desc "AI-powered commit message generator"
   homepage "https://github.com/suenot/aicommit"
-  version "v0.1.122"
+  version "v0.1.123"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/suenot/aicommit/releases/download/v0.1.122/aicommit-macos-aarch64"
-      sha256 "6c02adfbcf81c39fa4339a313a546fbe4a59db1a382090cfb54132f0423525da"
+      url "https://github.com/suenot/aicommit/releases/download/v0.1.123/aicommit-macos-aarch64"
+      sha256 "7f0a46e34153c3da27eb2f4edd7c8ca1ceaa714b89e07f6ff93130fcfa94fbe8"
 
       def install
         bin.install "aicommit-macos-aarch64" => "aicommit"
@@ -15,8 +15,8 @@ class Aicommit < Formula
     end
 
     on_intel do
-      url "https://github.com/suenot/aicommit/releases/download/v0.1.122/aicommit-macos-x86_64"
-      sha256 "0f49fb57678d8ae592310941e835297b9011d5b11c74e119af70b689e5efb766"
+      url "https://github.com/suenot/aicommit/releases/download/v0.1.123/aicommit-macos-x86_64"
+      sha256 "23dd901c694eb9e9dd0bc57c1513b368d189c2cfcb3fa4e8b853ce2d28cc6412"
 
       def install
         bin.install "aicommit-macos-x86_64" => "aicommit"
